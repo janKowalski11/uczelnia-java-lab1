@@ -149,7 +149,7 @@ public class Menu
                 final double side = keyboard.nextDouble();
                 final Square square = new Square(side);
 
-                System.out.print("Podaj wysokosc graniastoslupa: ");
+                System.out.print("Podaj wysokosci graniastoslupa: ");
                 final double height = keyboard.nextDouble();
 
                 Prism prism = new Prism(square, height);
